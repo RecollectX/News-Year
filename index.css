@@ -1,0 +1,42 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #b6281e;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 180px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .3rem;
+    color: #fae49c;
+    font-family: Arial;
+}
+.describe{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .3rem;
+    width: 100%;
+    height: 100%;
+    color: #fae49c;
+    font-family: Arial;
+}
+.describe h1{
+    font-size: 120px;
+}
+div.mark{
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    border: .1rem solid #fae49c;
+    border-radius: 0;
+    height: 120px;
+    animation: blink 1s step-end 0s infinite forwards;
+}
